@@ -1,0 +1,423 @@
+/*css  Container Nº1 Cabeçalho*/
+
+.flexbox-container-1 {
+	width: 100%;	
+	height: 80px;
+	display: flex;
+	justify-content: center;	
+	align-items: center;		
+}
+
+a {
+	text-decoration: none;
+}
+.item-1{
+	
+	margin: 0 100px 0 0; 
+}
+
+.item-2{ 
+	
+	margin: 28px 32px 28px 32px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #667085;	
+}
+
+.item-3{
+
+	margin: 28px 32px 28px 32px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #667085;
+}
+
+.item-4{
+	
+	margin: 28px 32px 28px 32px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #667085;
+	
+}
+.item-5{
+
+margin: 28px 32px 28px 32px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #667085;
+}
+
+nav {	
+position: relative;
+
+}
+nav li {
+	display: inline;
+		
+}
+
+.entrar { 
+	background: none;
+	border: none;
+	cursor: pointer;
+
+ }
+
+.entrar:hover { 
+ 	text-decoration: underline;
+
+  }
+
+.cadastrar { 
+ 	padding: 10px 10px;
+ 	background: #8E2424;
+ 	border: none;
+ 	border-radius: 3px;
+ 	color: white;
+ 	font-weight: bold;
+ 	transition: 0.5s;
+ 	cursor: pointer;
+ 
+  }
+
+.cadastrar:hover { 
+  transform: scale(1.1);	
+
+}
+
+
+
+/*css Conteiner Nº2 Sobre nós*/
+.flexbox-container-2 {
+	width: 100%;
+	height: 407px;
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	font-family: 'Inter';
+	
+
+
+	
+
+}
+
+.titulo {
+	margin: 96px 0 24px 0;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #8E2424;
+
+}
+
+.titulo-2 {
+
+	width: 603px;
+	height: 60px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 60px;
+	color: #101828;
+
+}
+
+.paragrafo {
+margin: 20px 0 64px 0; 
+width: 768px;
+height: 30px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #667085;
+
+}
+
+/*css Container Nº3 - Estatistica da Empresa */
+
+.flexbox-container-3 {
+	width: 	1280px;
+	height: 288px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	font-family: 'Inter';
+	
+
+}
+
+.titulo-da-caixa {
+
+margin: 12px 0 8px 0;
+font-weight: bold;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #101828;
+}
+
+.texto-da-caixa {
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #667085;
+
+}
+.caixa-1 {
+	width: 280px;
+	height: 72px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 72px;
+	color: #8E2424;
+}
+
+.caixa-2 {
+	width: 280px;
+	height: 72px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 72px;
+	color: #8E2424;
+}
+
+.caixa-3 {
+	width: 280px;
+	height: 72px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 72px;
+	color: #8E2424;
+
+}
+
+.caixa-4 {
+	width: 280px;
+	height: 72px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 72px;
+	color: #8E2424;
+}
+
+/*css Container Nº4 - Procurando vagas */
+.flexbox-container-4 {
+	width: 100%;
+	height: 1798px;
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	font-family: 'Inter';
+	
+
+
+}
+	
+.vagas {
+	width: 125px;
+	margin: 96px 0 16px 0;
+ 	background: rgba(142, 36, 36, 0.05);
+ 	border: none;
+ 	border-radius: 16px;
+ 	text-align: center;
+ 	color: #8E2424;
+ 	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.texto-negrito {
+	text-align: center;
+	width: 100%;
+	height: 44px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+}
+
+
+
+
+h1 {
+width: 768px;
+height: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #101828;
+}
+
+
+
+h2{ 
+width: 768px;
+height: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+
+ }	
+
+.caixas-vagas {
+	width: 768px;
+	height: 136px;
+ 	border: 1px solid #EAECF0;
+ 	border-radius: 16px;
+ 	margin: 24px auto;
+}
+
+.nome-da-vaga {
+
+margin-left: 24px;
+width: 720px;
+height: 28px;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+color: #101828;
+}
+
+.descricao-da-vaga {
+
+	margin: 32px 0 28px 24px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #667085; 
+
+}
+/*css Container Nº5 - Sobre os colaboradores */
+
+.flexbox-container-5 {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	justify-content: start;
+	font-family: 'Inter';
+	
+}
+
+.background {
+	width: 1216px;
+	height: 500px;
+	margin: 0 0 96px 0;
+	text-align: center;
+	background: rgba(196, 25, 25, 0.03);
+
+}
+
+.titulo-colaborador {
+	margin: 64px 0 16px 0;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #8E2424;
+
+
+}
+
+.paragrafo-2 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 44px;
+	color: #101828;
+}
+
+.imagem-2 { 
+	margin: 32px 0 16px 0;
+ }
+
+ .nome {
+ 	margin: 16px 0 4px 0;
+ 	font-weight: bold;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #101828;
+ }
+
+.cargo {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #667085;
+}
+
+
+/*css Container Nº6 Rodapé  */
+
+.flexbox-container-6 {
+	width: 100%;
+	height: 430px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+	align-items: center;
+	font-family: 'Inter';
+	background: #F9FAFB;
+}
+
+.input-padrao {
+width: 360px;
+height: 12px;
+align-items: center;
+padding: 12px 14px 12px 16px;
+background: #FFFFFF;
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+
+.copyrigth {
+
+margin: 32px auto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #98A2B3;
+
+}
+
+@media screen and (max-width: 480px) {
+	nav{ 
+		position: static;
+	}
+
+
+}
